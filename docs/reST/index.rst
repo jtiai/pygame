@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Pygame Front Page
-=================
+Pygame Documentation
+====================
 
 .. toctree::
    :maxdepth: 2
@@ -16,69 +16,36 @@ Pygame Front Page
    c_api
    filepaths
 
-Documents
----------
+Welcome and introduction
+------------------------
 
-`Readme`_
-  Basic information about pygame: what it is, who is involved, and where to find it.
+What Pygame is and what it can do in short.
 
-`Install`_
-  Steps needed to compile pygame on several platforms.
-  Also help on finding and installing prebuilt binaries for your system.
+Installation
+------------
 
-`File Path Function Arguments`_
-  How pygame handles file system paths.
+Short instructions how to install pygame (pip) and how to run aliens demo.
+
+List of prebuilt binaries (python/os combos)
+
+If installation fails, how to build pygame on various platforms
+
+Getting started
+---------------
+
+First game/app
+
+License
+-------
 
 `LGPL License`_
   This is the license pygame is distributed under.
   It provides for pygame to be distributed with open source and commercial software.
   Generally, if pygame is not changed, it can be used with any type of program.
 
-Tutorials
----------
+Contributing
+------------
 
-:doc:`Introduction to Pygame <tut/PygameIntro>`
-  An introduction to the basics of pygame.
-  This is written for users of Python and appeared in volume two of the Py magazine.
-
-:doc:`Import and Initialize <tut/ImportInit>`
-  The beginning steps on importing and initializing pygame.
-  The pygame package is made of several modules.
-  Some modules are not included on all platforms.
-
-:doc:`How do I move an Image? <tut/MoveIt>`
-  A basic tutorial that covers the concepts behind 2D computer animation.
-  Information about drawing and clearing objects to make them appear animated.
-
-:doc:`Chimp Tutorial, Line by Line <tut/ChimpLineByLine>`
-  The pygame examples include a simple program with an interactive fist and a chimpanzee.
-  This was inspired by the annoying flash banner of the early 2000s.
-  This tutorial examines every line of code used in the example.
-
-:doc:`Sprite Module Introduction <tut/SpriteIntro>`
-  Pygame includes a higher level sprite module to help organize games.
-  The sprite module includes several classes that help manage details found in almost all games types.
-  The Sprite classes are a bit more advanced than the regular pygame modules,
-  and need more understanding to be properly used.
-
-:doc:`Surfarray Introduction <tut/SurfarrayIntro>`
-  Pygame used the NumPy python module to allow efficient per pixel effects on images.
-  Using the surface arrays is an advanced feature that allows custom effects and filters.
-  This also examines some of the simple effects from the pygame example, arraydemo.py.
-
-:doc:`Camera Module Introduction <tut/CameraIntro>`
-  Pygame, as of 1.9, has a camera module that allows you to capture images,
-  watch live streams, and do some basic computer vision.
-  This tutorial covers those use cases.
-
-:doc:`Newbie Guide <tut/newbieguide>`
-  A list of thirteen helpful tips for people to get comfortable using pygame.
-
-:doc:`Making Games Tutorial <tut/MakeGames>`
-  A large tutorial that covers the bigger topics needed to create an entire game.
-
-:doc:`Display Modes <tut/DisplayModes>`
-  Getting a display surface for the screen.
 
 Reference
 ---------

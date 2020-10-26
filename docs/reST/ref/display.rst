@@ -133,7 +133,7 @@ required).
 
    Returns True if the :mod:`pygame.display` module is currently initialized.
 
-   .. ## pygame.display.get_init ##
+
 
 .. function:: set_mode
 
